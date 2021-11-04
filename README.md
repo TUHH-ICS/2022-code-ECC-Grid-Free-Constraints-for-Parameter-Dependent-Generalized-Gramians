@@ -1,5 +1,7 @@
 # Grid-Free Constraints for Parameter-Dependent Generalized Gramians via Full Block S-Procedure
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645365.svg)](https://doi.org/10.5281/zenodo.5645365)
+
 ## General
 
 This repository contains the simulation code to reproduce the tables and figures presented in
