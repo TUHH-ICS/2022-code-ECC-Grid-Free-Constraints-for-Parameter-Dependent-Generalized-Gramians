@@ -1,5 +1,5 @@
 
-function evalfct = evalFctHandleAtVec(fctHandle,vec)
+function fctEval = evalFctHandleAtVec(fctHandle,vec)
 %EVALFCTHANDLEATVEC Evaluates fctHandle at values listed in vec
 %
 %---------------------------------------------------------------------------------------------------

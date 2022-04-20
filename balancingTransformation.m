@@ -66,8 +66,8 @@ eval(['dV' str]);
 for i = 1:numel(Rp)
 
     
-    Qi = evaluateFHandleAtVec(Q,gridPoints(i,:));
-    Pi = evaluateFHandleAtVec(P,gridPoints(i,:));
+    Qi = evalFctHandleAtVec(Q,gridPoints(i,:));
+    Pi = evalFctHandleAtVec(P,gridPoints(i,:));
     
     if i>1
         [T{i}, Ti{i}, Rq{i}, Rp{i}, S{i}, V{i}, U{i}] = computeT(Qi,Pi,S{i-1}, V{i-1});
